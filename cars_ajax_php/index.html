@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="car.css">
+    <script src="javascript/car.js"></script>
+    <title>Document</title>
+</head>
+
+<body onload="loadCarJson()">
+    <header>CARS KINGDOM</header>
+    <div class="carSection">
+    <div class="information">
+        <h2>CAR INFORMATION</h2>
+        <form id="carInformation">
+            <div class="input">
+                <label for="carName">CAR NAME</label>
+                <input type="text" name="carName" id="carName" required>
+            </div>
+            <div class="input">
+                <label for="carModel">CAR MODEL</label>
+                <input type="text" name="carModel" id="carModel" required>
+            </div>
+            <div class="input">
+                <label for="capacity">CAPACITY</label>
+                <input type="text" name="capacity" id="capacity" required>
+            </div>
+            <div class="input">
+                <label for="price">PRICE</label>
+                <input type="text" name="price" id="price" required>
+            </div>
+            <div class="input">
+                <label for="myFile">CHOOSE FILE</label>
+                <input type="file" id="myFile" name="myFile" required>
+            </div>
+
+            <div id="btn">
+                <button type="button" value="add" onclick="addCarInformation()">ADD</button>
+            </div>
+            <div id="response"></div>
+        </form>
+    </div>
+  <div class="carSpecification" id="carSpecification">
+  </div>
+</div>
+<footer>copy rights @carkingdom</footer>
+
+</body>
+
+</html>

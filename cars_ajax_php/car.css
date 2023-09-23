@@ -1,0 +1,108 @@
+body {
+  margin: 0;
+  background-color: #212a3e;
+
+  margin: 20px;
+}
+
+.carSpecification {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+
+  row-gap: 20em;
+}
+
+.carDetail,.container {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.carDetail,h1 {
+  color: #212a3e;
+  text-align: center;
+}
+
+.carDetail,img {
+  width: 250px;
+  height: 250px;
+}
+
+.container {
+  text-align: center;
+  padding: 10px 20px;
+  color: rgb(245, 10, 10);
+}
+
+.information {
+  background-color: whitesmoke;
+  margin: auto;
+  border-radius: 10px;
+  width: 300px;
+  font-size: 20px;
+}
+
+
+h2 {
+  color: rgb(245, 10, 10);
+  text-align: center;
+  font-size: 25px;
+}
+
+.input input {
+  width: 75%;
+  padding: 0.3em;
+  margin: 10px;
+  border-radius: 4px;
+  font-size: 0.8em;
+}
+
+.information label {
+  display: block;
+  padding: 5px;
+  color: #212a3e;
+  font-size: 18px;
+}
+
+#btn {
+  text-align: center;
+  padding: 10px;
+}
+
+button {
+  color: white;
+  font-size: 20px;
+  background-color: rgb(208, 37, 37);
+  border-radius: 5px;
+  width: 100px;
+  border-color: none;
+}
+
+#result {
+  color: white;
+  font-size: 20px;
+}
+
+header {
+  text-align: center;
+  color: red;
+  font-size: 40px;
+  height: 75px;
+  margin: 10px;
+  width: 100%;
+}
+
+footer {
+  text-align: left;
+  color: red;
+  font-size: 20px;
+  height: 50px;
+  display: block;
+  width: 100%;
+}
+
+.carSection {
+ display: flex;
+  width: 100%;
+  margin: 5px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
